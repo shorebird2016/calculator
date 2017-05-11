@@ -1,0 +1,21 @@
+Future ideas for this project:
+
+==> use transformation to make it 3-D look, also use animation as fly-in
+
+==> Keeping history
+
+==> Edit history and submit
+
+==> C vs CE any difference?
+
+
+——OK——
+
+==> How to manage precision (# decimal places) and max number of digits
+    on LCD, many trailing 0s after decimal doesn’t look good
+	(partially solved using DecimalFormat.js )
+
+==> Stop allowing user entry after entering 10 digits
+
+==> Why getting NaN occasionally but hard to capture the use case?
+	(1) click digits, +, = (2) … =, +, digits, = 
